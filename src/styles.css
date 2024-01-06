@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url('Images/download.jpg');
+    background-size: cover;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.TooltipTitle:hover{
+    color: grey;
+
+}

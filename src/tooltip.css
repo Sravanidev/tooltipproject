@@ -1,0 +1,41 @@
+.hoveronme{
+    position: fixed;
+    top: 70%;
+    left: 47%;
+    height: 45px;
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 30%;
+    border: 2px solid green;
+}
+
+@keyframes bounce{
+    from{
+       tranform:translateY(-40px);
+   }
+   
+   25%{
+       transform:translatey(40px);
+   }
+   
+   50%{
+       transform:translatey(-10px);
+   }
+   75%{
+       tranform:translatey(10px);
+   }
+   to{
+       transform:translatey(0px);
+   }
+   
+}
+
+.tooltip{
+    height: auto;
+    width: auto;
+    border: 2px solid navajowhite;
+    background-color: light;
+    border-radius: 50px;
+    animation: bounce 1.5s ease-in-out 1 alternate;
+
+}
